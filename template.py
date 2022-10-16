@@ -25,7 +25,10 @@ list_of_files = [
                 "setup.cfg",
                 "pyproject.toml", #required for python packages
                 "tox.ini", #testing projects locally
-                "research/trials.ipynb" #for doing some trials
+                "research/trials.ipynb", #for doing some trials
+                "tests/__init__.py",
+                "tests/unit/__init__.py",
+                "tests/integration/__init__.py"
 ]
 
 for filepath in list_of_files:
